@@ -1,0 +1,36 @@
+# Ignore database files
+db.sqlite3
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment directory (if you're using a virtual environment)
+venv/
+.env
+
+# Ignore IDE and code editor files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore local settings files
+my_project/settings/local_settings.py
+
+# Ignore media files (user-uploaded content)
+media/
+
+# Ignore static files (collected static files)
+static/
+
+# Ignore secret keys and sensitive data
+secret_key.txt
+secrets.json
+
+# Ignore local database configurations
+*.db
+
+# Ignore any other sensitive or generated files
+*.swp

@@ -1,0 +1,19 @@
+.cardContainer {
+    margin-top: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .fav_icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.commentContainer {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-flow: row;
+  margin-bottom: 10px;
+}

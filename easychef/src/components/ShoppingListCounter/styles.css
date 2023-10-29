@@ -1,0 +1,23 @@
+.linkUnstyleWhite{
+    text-decoration: none;
+    color: black;
+}
+
+.linkUnstyleWhite:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.recCard{
+    background: rgba(255, 255, 255, 0.651);
+    height: 300px;
+    width: 200px;
+}
+
+.recCardImg{
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,59 @@
+/* This edits the bootstrap row class so that there is no 
+shenanigans with the width of the screen being slightly too big*/
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.submit-button-top-margin {
+    margin-top: 20px;
+}
+
+.home-made-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* RECIPE CSS */
+
+#serving_edit, #time_edit {
+    margin-left: 10%;
+}
+
+#ingredients_edit, #steps_edit{
+    min-width: 250px;
+}
+
+.center-that-works {
+    display: grid;
+    place-items: center;
+}
+
+#side_div_new_recipe {
+    display: block;
+    min-width: 300px;
+}
+
+/* ############# */
+
+form {
+    text-align: left !important;
+}
+
+#time_edit, #serving_edit {
+    max-width: 150px;
+}
+
+#steps {
+    margin-top: 20px;
+}
+
+.live_images {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 5px;
+}
+
+#ing_div {
+    padding-bottom: 5px;
+}

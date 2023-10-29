@@ -1,0 +1,11 @@
+#wrapper {
+    min-height: 101vh;
+}
+.cardContainer {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-flow: row;
+    margin-bottom: 10px;
+  }

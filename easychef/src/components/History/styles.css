@@ -1,0 +1,22 @@
+.searchBar {
+    border: 1px solid darkgrey;
+    margin-top: 10%;
+    width: 40%;
+    border-radius: 50px;
+    padding-left: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.input-group-text {
+    margin-top: 10%;
+    border-radius: 50px;
+    border: 1px solid darkgrey;
+    border-left-style: none;
+    background-color: lightgrey;
+}
+.btn.btn-secondary.barButton{
+    color: black;
+    border: none;
+    background-color: transparent;
+}

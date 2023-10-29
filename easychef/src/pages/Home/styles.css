@@ -1,0 +1,16 @@
+
+.searchBar {
+    border: 1px solid darkgrey;
+    margin-top: 10%;
+    width: 40%;
+    border-radius: 50px;
+    padding-left: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cardContainer {
+    margin-top: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
